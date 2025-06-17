@@ -1,0 +1,15 @@
+{
+  "name": "ceitsa-theme",
+  "version": "1.0.0",
+  "description": "Tema base CEITSA con TailPress",
+  "scripts": {
+    "dev": "postcss assets/css/main.css -o assets/css/main.css --watch",
+    "build": "postcss assets/css/main.css -o assets/css/main.css"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^3.3.0"
+  }
+}

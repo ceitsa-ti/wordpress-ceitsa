@@ -1,0 +1,10 @@
+/* Estilos visuales para el editor de bloques */
+body {
+  font-family: sans-serif;
+  background-color: #f9fafb;
+  padding: 2rem;
+}
+
+h1, h2, h3 {
+  color: #1e3a8a;
+}
