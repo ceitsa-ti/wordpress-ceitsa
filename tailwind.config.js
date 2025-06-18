@@ -1,9 +1,8 @@
 module.exports = {
   content: [
     "./*.php",
-    "./templates/**/*.html",
-    "./parts/**/*.html",
-    "./template-parts/**/*.php",
+    "./templates/**/*.{php,html}",
+    "./template-parts/**/*.{php,html}",
     "./block-patterns/**/*.php",
     "./assets/js/**/*.js",
   ],
