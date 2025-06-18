@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Tema base CEITSA con TailPress",
   "scripts": {
-    "dev": "postcss assets/css/main.css -o assets/css/main.css --watch",
-    "build": "postcss assets/css/main.css -o assets/css/main.css"
+    "dev": "postcss src/css/main.css -o assets/css/main.css --watch",
+    "build": "postcss src/css/main.css -o assets/css/main.css"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.0",
