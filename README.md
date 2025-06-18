@@ -28,11 +28,12 @@ npm run build
 ```
 ceitsa-theme/
 ├── assets/              # Archivos estáticos (CSS, JS, imágenes)
-│   └── css/
+├── src/
+│   └── css/             # Fuentes de estilos (Tailwind)
 ├── block-patterns/      # Patrones reutilizables
-├── parts/               # Partes de plantilla FSE (header, footer)
-├── templates/           # Plantillas HTML para FSE
-├── template-parts/      # Partes clásicas en PHP (fallback)
+├── templates/           # Plantillas completas en PHP/HTML
+├── template-parts/      # Secciones parciales (header, footer)
+├── scripts/             # Utilidades y tareas
 ├── functions.php        # Registro de bloques, estilos, patrones
 ├── theme.json           # Configuración global (paleta, tipografías)
 ├── tailwind.config.js   # Configuración de Tailwind
